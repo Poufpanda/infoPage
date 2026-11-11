@@ -1,0 +1,15 @@
+.body {
+    background: rgba(50,50,50)
+}
+
+.progress-rootme {
+  background: rgba(255,255,255,0.1);
+  justify-content: flex-end;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0 5px;
+  display: flex;
+  height: 10px;
+  width: 100px;
+}
