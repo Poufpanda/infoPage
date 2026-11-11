@@ -1,10 +1,10 @@
-.body {
-    background: rgba(50,50,50)
+body {
+    background: rgba(29, 29, 29, 0.8)
 }
 
 .progress-rootme {
-  background: rgba(255,255,255,0.1);
-  justify-content: flex-end;
+  background: rgba(255, 255, 255, 0.7);
+  justify-content: center;
   border-radius: 100px;
   align-items: center;
   position: relative;
