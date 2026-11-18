@@ -39,26 +39,14 @@
 
                 <div id="progression" class="box p-3">
                     <h3>Root-me</h3>
-                    <p class="mb-1">Currently at 500 points</p>
-                    <p class="mb-1">My current goal is to reach 500</p>
+                    <p class="mb-1">Reached my 500 points goal</p>
                     <p class="mb-0">Current rank: 35173</p>
-                </div>
-
-                <div id="projects" class="box p-3">
-                    <dl class="mb-2">
-                        <dt>Homelab sécurisé</dt>
-                        <dd class="text-secondary">Serveur Docker derrière un reverse proxy, durci avec ufw et fail2ban</dd>
-                        <dt>SIEM Wazuh</dt>
-                        <dd class="text-secondary">Supervision et collecte de logs du serveur</dd>
-                        <dt>Bot de monitoring Discord</dt>
-                        <dd class="text-secondary mb-0">Bot qui récupère des informations sur le serveur et alerte en cas de brèche</dd>
-                    </dl>
-                    <p class="small text-secondary mb-0">Page statique, sans cookies, sans formulaire, sans traceur</p>
                 </div>
 
             </div>
 
-            <div id="main-links" class="col-md-9 px-md-10">
+            <div id="main-links" class="col-md-6 px-md-10">
+
                 <div id="links" class="center-zone d-flex flex-column gap-3 mx-auto">
                     <a href="https://github.com/Poufpanda" target="_blank" class="btn-link">
                         <img src="icons/github-icon.png" alt="GitHub" class="icon"> GitHub
@@ -76,8 +64,32 @@
                         <img src="icons/htb-icon.png" alt="HackTheBox" class="icon"> HackTheBox
                     </a>
                 </div>
+
+                <div id="terminal" class="center-zone mx-auto mt-3 p-0">
+                    <div id="term-history"></div>
+
+                    <div class="d-flex">
+                        <span class="me-2" style="color: #00ff87;">poufpanda@homelab:~$</span>
+                        <input type="text" id="term-input" autocomplete="off" spellcheck="false">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+
+                <div id="projects" class="box p-3">
+                    <dl class="mb-2">
+                        <dt>Homelab sécurisé</dt>
+                        <dd class="text-secondary">Serveur Docker derrière un reverse proxy, durci avec ufw et fail2ban</dd>
+                        <dt>SIEM Wazuh</dt>
+                        <dd class="text-secondary">Supervision et collecte de logs du serveur</dd>
+                        <dt>Bot de monitoring Discord</dt>
+                        <dd class="text-secondary mb-0">Bot qui récupère des informations sur le serveur et alerte en cas de brèche</dd>
+                    </dl>
+                </div>
+                
             </div>
         </div>
     </div>
+    <script src="terminal.js"></script>
 </body>
 </html>

@@ -8,6 +8,29 @@ body {
   font-size: 0.82rem;
 }
 
+#terminal {
+  height: 25vh;
+  overflow-y: auto;
+  padding: 15px;
+  color: #00ff87;
+  font-size: 0.85rem;
+}
+
+#term-history {
+  white-space: pre-wrap;
+}
+
+#term-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none !important;
+  color: #00ff87;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0;
+}
+
 .box {
   background-color: #111827;
   border: 1px solid #2d3748;
@@ -23,8 +46,8 @@ body {
 }
 
 .center-zone {
-  max-width: 440px;
-  padding: 25px;
+  max-width: 100%;
+  padding: 5%;
   background-color: rgba(17, 24, 39, 0.5);
   border: 1px solid #2d3748;
   border-radius: 12px;
